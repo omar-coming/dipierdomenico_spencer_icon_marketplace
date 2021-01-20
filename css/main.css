@@ -1,0 +1,161 @@
+:root{
+    --color1:black;
+    --color2:white;
+    --color3:orange;
+}
+img { max-width: 100%; }
+
+
+
+.header{
+background:purple;
+}
+
+.header h1{
+    font-family:bebas;
+    color:var(--color2);
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size:1rem;
+}
+
+.menu{
+    background:blue;
+}
+
+.menu ul{
+    list-style: none;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    font-family:bebas;
+    text-decoration: none;
+    color:var(--color2);
+    padding:10px;
+    font-size:1rem;
+}
+
+.hero{
+    background:var(--color1);
+    padding:40px;
+    border:var(--color2) solid 20px;
+}
+
+.hero h1{
+    font-family:roboto;
+    font-size:3rem;
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:var(--color2);
+}
+
+.hero h2{
+    font-size: 2.5rem;
+    font-family:bebas;
+    text-align:center;
+    margin:0;
+    padding:0;
+    letter-spacing: 20px;;
+    color:var(--color2);
+}
+
+.packages{
+    height:200px;
+}
+
+.package{
+    height:200px;
+    background:yellow;
+
+}
+
+.products{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+
+.products div{
+    flex:1 0 23%;
+    padding:10px;
+    box-sizing: border-box;
+    margin:0 auto;
+    text-align: center;
+}
+
+.products div img:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+.products div img{
+    max-width:200px;
+    transition: 1s;
+
+}
+
+.footer ul{
+    display: flex;
+    flex-flow:row nowrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer ul li{
+    padding:10px;
+    background:red;
+    height:100px;
+    width:100px;
+    margin:10px;
+    text-align:center;
+    align-items: center;
+}
+
+.footer ul li a{
+    padding:10px;
+    color:var(--color2);
+    text-decoration: none;
+    font-family:bebas;
+}
+
+.social ul{
+    display: flex;
+    flex-flow:row nowrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.social ul li{
+    padding:10px;
+    background:white;
+    height:100px;
+    width:100px;
+    margin:10px;
+}
+
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+.hero { grid-area: right; }
+.footer { grid-area: footer; }
+.social { grid-area: social; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header menu menu menu'
+    'right right right right right right'
+    'main main main main main main'
+    'footer footer footer social social social';
+  grid-gap: 10px;
+  background-color: var(--color3);
+  padding: 10px;
+  max-width:1200px;
+  margin:0 auto;
+}
