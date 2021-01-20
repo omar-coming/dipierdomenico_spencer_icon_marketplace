@@ -1,27 +1,28 @@
 :root{
     --color1:black;
     --color2:white;
-    --color3:orange;
+    --color3:rgb(78, 78, 78);
 }
-img { max-width: 100%; }
+
+svg { max-width: 100%; }
 
 
 
 .header{
-background:purple;
+    background:var(--color2);
 }
 
 .header h1{
     font-family:bebas;
-    color:var(--color2);
+    color:var(--color1);
     text-align: center;
     word-spacing: 10px;
     letter-spacing: 10px;
-    font-size:1rem;
+    font-size:.85rem;
 }
 
 .menu{
-    background:blue;
+    background:var(--color1);
 }
 
 .menu ul{
@@ -29,19 +30,27 @@ background:purple;
     display:flex;
     flex-flow:row nowrap;
     justify-content: space-between;
+    padding-right:20px;
+    padding-left:20px;
+    text-align: center;
+    justify-content: space-between;
+
 }
 
 .menu ul li a{
     font-family:bebas;
     text-decoration: none;
     color:var(--color2);
+    font-size:.85rem;
     padding:10px;
-    font-size:1rem;
+
 }
 
 .hero{
     background:var(--color1);
-    padding:40px;
+    padding-top:40px;
+    padding-bottom:40px;
+
     border:var(--color2) solid 20px;
 }
 
@@ -64,15 +73,55 @@ background:purple;
     color:var(--color2);
 }
 
+.main{
+    background:var(--color2);
+}
+
 .packages{
-    height:200px;
+    display:flex;
+    flex-flow:row wrap;
 }
 
 .package{
-    height:200px;
-    background:yellow;
-
+    flex:1 0 29%;
+    font-family:bebas;
+    padding:10px;
+    background:var(--color2);
+    margin:10px;
 }
+
+.package button{
+    padding:10px;
+    font-family:bebas;
+    font-size:1rem;
+    color:var(--color2);
+    background:var(--color1);
+    width:100%;
+    word-spacing: 5px;
+}
+
+.package h1, h2, p{
+    margin:10px;
+}
+
+.package h1{
+    background:var(--color1);
+    color:var(--color2);
+    padding:5px;
+    text-align: center;
+}
+
+.package h2{
+    color:var(--color1);
+    padding:5px;
+    text-align: center;
+}
+
+.package p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 
 .products{
     display:flex;
@@ -80,70 +129,101 @@ background:purple;
     justify-content: space-between;
 }
 
-.products div{
+.products object{
     flex:1 0 23%;
     padding:10px;
     box-sizing: border-box;
     margin:0 auto;
     text-align: center;
+    max-width:23%;
 }
 
-.products div img:hover{
+.products object:hover{
     transform: scale(1.25);
     transition: 1s;
 }
 
-.products div img{
-    max-width:200px;
+.products object{
     transition: 1s;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+        padding:10px;
+        background:var(--color1);
+
+}
+
 .footer ul{
-    display: flex;
+    display:flex;
     flex-flow:row nowrap;
     list-style: none;
     justify-content: space-between;
+    padding:0px;
+    margin:0px;
 }
 
 .footer ul li{
-    padding:10px;
-    background:red;
-    height:100px;
-    width:100px;
-    margin:10px;
-    text-align:center;
+    text-align: center;
     align-items: center;
 }
 
 .footer ul li a{
-    padding:10px;
     color:var(--color2);
     text-decoration: none;
     font-family:bebas;
 }
 
+
+.social{
+    padding:10px;
+    background:var(--color1);
+
+}
+
 .social ul{
-    display: flex;
+    display:flex;
     flex-flow:row nowrap;
     list-style: none;
     justify-content: space-between;
+    padding:0px;
+    margin:0px;
 }
 
 .social ul li{
-    padding:10px;
-    background:white;
-    height:100px;
-    width:100px;
-    margin:10px;
+    text-align: center;
+    align-items: center;
 }
+
+.social ul li a{
+    color:var(--color2);
+    text-decoration: none;
+    font-family:bebas;
+}
+
 
 .header { grid-area: header; }
 .menu { grid-area: menu; }
 .main { grid-area: main; }
 .hero { grid-area: right; }
 .footer { grid-area: footer; }
-.social { grid-area: social; }
+.social {grid-area: social; }
 
 
 .grid-container {
@@ -154,8 +234,30 @@ background:purple;
     'main main main main main main'
     'footer footer footer social social social';
   grid-gap: 10px;
-  background-color: var(--color3);
+  background-color: var(--color1);
   padding: 10px;
   max-width:1200px;
   margin:0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu menu menu menu menu menu'
+          'right right right right right right'
+          'main main main main main main'
+          'footer footer footer footer footer footer'
+          'social social social social social social';
+      }
+
+      .products object{
+        flex:1 0 30%;
+        padding:10px;
+        box-sizing: border-box;
+        margin:0 auto;
+        text-align: center;
+        max-width:30%;
+    }
+  }

@@ -27,6 +27,13 @@
       .cls-5 {
         stroke-dasharray: 0.86 0.86;
       }
+
+      #red_text:hover{
+        opacity:0;
+      }
+
+
+
     </style>
   </defs>
   <g id="black_disk" data-name="black disk">
