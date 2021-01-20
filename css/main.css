@@ -25,7 +25,6 @@ svg { max-width: 100%; }
     justify-content: center;
     align-items: center;
     background:var(--color2);
-    padding:10px;
 
 }
 
@@ -39,7 +38,7 @@ svg { max-width: 100%; }
     text-align: center;
     cursor:pointer;
     transition:.3s;
-
+    padding:10px;
 }
 
 .header a span{
@@ -82,11 +81,9 @@ padding-right:20px;
     list-style: none;
     display:flex;
     flex-flow:row nowrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
 
     background:var(--color1);
-    padding:10px;
 }
 
 .menu ul li a{
@@ -97,7 +94,11 @@ padding-right:20px;
     word-spacing: 20px;
     letter-spacing: 5px;
     text-align: center;
+    
+}
 
+.menu ul li a:hover{
+    color:var(--color3);
 }
 
 .hero{
@@ -240,12 +241,12 @@ padding-right:20px;
 }
 
 .products div:hover{
-    transform: scale(1.25);
-    transition: 1s;
+    transform: scale(1.15);
+    transition: .3s;
 }
 
 .products div{
-    transition: 1s;
+    transition: .3s;
 
 }
 
@@ -330,14 +331,14 @@ padding-right:20px;
 #grid-container {
   display: grid;
   grid-template-areas:
-    'header header menu menu menu menu'
+    'header header header menu menu menu'
     'right right right right right right'
     'main main main main main main'
     'footer footer footer social social social';
   grid-gap: 10px;
   background-color: var(--color1);
   padding: 10px;
-  max-width:1200px;
+  max-width:1300px;
   margin:0 auto;
 }
 
@@ -353,7 +354,7 @@ padding-right:20px;
           'social social social social social social';
       }
 
-      .products object{
+      .iconContainer{
         flex:1 0 30%;
         padding:10px;
         box-sizing: border-box;
@@ -365,6 +366,11 @@ padding-right:20px;
     
 .package{
 flex:1 1 100%;
+}
+
+.header a{
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
   }

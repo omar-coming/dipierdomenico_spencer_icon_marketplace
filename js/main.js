@@ -17,8 +17,8 @@ function changeSmall() {
     document.getElementById("grid-container").style.maxWidth="1200px";
     }
 
+
     
-      function reply_click(clicked_id)
-      {
-          console.log(clicked_id);
-      }
+function reply_click(clicked_id) {
+        console.log(clicked_id);
+    }
