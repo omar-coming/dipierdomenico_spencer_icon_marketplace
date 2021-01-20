@@ -28,10 +28,6 @@
         stroke-dasharray: 0.86 0.86;
       }
 
-      #red_text:hover{
-        opacity:0;
-      }
-
 
 
     </style>

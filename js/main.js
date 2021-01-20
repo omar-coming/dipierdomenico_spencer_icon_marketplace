@@ -17,12 +17,8 @@ function changeSmall() {
     document.getElementById("grid-container").style.maxWidth="1200px";
     }
 
-
-      function pdfBigger() {
-        var x = document.getElementById("infoSheet");
-        if (x.style.height === "25vh") {
-          x.style.height = "100vh";
-        } else {
-          x.style.height = "25vh";
-        }
-      } 
+    
+      function reply_click(clicked_id)
+      {
+          console.log(clicked_id);
+      }
