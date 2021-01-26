@@ -1,11 +1,6 @@
-* {box-sizing: border-box;}
-
-body{
-  font-family:bebas;
-}
-
 .formContainer{
   padding:20px;
+  font-family:bebas;
 }
 
 input[type=text], select, textarea {

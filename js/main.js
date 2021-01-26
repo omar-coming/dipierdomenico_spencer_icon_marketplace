@@ -19,10 +19,10 @@ function changeSmall() {
 
     function pdfBigger() {
       var x = document.getElementById("infoSheet");
-      if (x.style.height === "25vh") {
-        x.style.height = "100vh";
-      } else {
+      if (x.style.height === "100vh") {
         x.style.height = "25vh";
+      } else {
+        x.style.height = "100vh";
       }
     } 
 
