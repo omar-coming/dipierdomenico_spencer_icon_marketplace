@@ -26,7 +26,16 @@ function changeSmall() {
       }
     } 
 
+    function mobileMenu() {
+      var x = document.getElementById("menu");
+      if (x.style.top === "0%") {
+        x.style.top = "100%";
+      } else {
+        x.style.top = "0%";
+      }
+    } 
     
 function reply_click(clicked_id) {
         console.log(clicked_id);
     }
+

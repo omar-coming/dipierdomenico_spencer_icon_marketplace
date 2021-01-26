@@ -1,31 +1,52 @@
 :root{
-    --color1:black;
-    --color2:white;
-    --color3:rgb(212, 52, 52);
+    --color1:#5BC2E7;
+    --color2:rgb(255, 255, 255);
+    --color3:#e75bbd ;
+    --color4:#a9e8ff ;
 }
 
 body{
-    background: black;
+    background: var(--color1);
+    z-index:2;
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--color2);
+    background: var(--color3);
+}
+  
+::selection {
+    color: var(--color2);
+    background: var(--color3);
+  }
 
 svg { max-width: 100%; }
 
 .bigTitle{
-    font-family:bebas;
-    color:var(--color1);
+    font-family:montserrat;
+    color:var(--color2);
     font-size:2rem;
     word-spacing:10px;
     text-align: center;
+    width:auto;
+    padding:5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.495) 0%, rgba(255,255,255,0) 50%);
+
+
 }
 
 
 .header{
     list-style: none;
     display:flex;
+    flex-flow:row wrap;
     justify-content: center;
     align-items: center;
     background:var(--color2);
-
+    width:100%;
+    position:sticky;
+    top:0px;
 }
 
 .header a{
@@ -38,7 +59,6 @@ svg { max-width: 100%; }
     text-align: center;
     cursor:pointer;
     transition:.3s;
-    padding:10px;
 }
 
 .header a span{
@@ -46,7 +66,7 @@ svg { max-width: 100%; }
     color:var(--color2);
     padding:10px;
     padding-right:5px;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     transition:.3s;
 }
 
@@ -72,45 +92,51 @@ transition:.3s;
 
 
 
-.menu{
+#menu{
 padding-left:20px;
 padding-right:20px;
 }
 
-.menu ul{
+#menu ul{
     list-style: none;
     display:flex;
     flex-flow:row nowrap;
     justify-content: space-evenly;
 
-    background:var(--color1);
 }
 
-.menu ul li a{
+#menu ul li{
+    padding-top:20px;
+}
+
+#menu ul li a{
     font-family:bebas;
     text-decoration: none;
     color:var(--color2);
     font-size:1rem;
-    word-spacing: 20px;
     letter-spacing: 5px;
-    text-align: center;
-    
+    padding:10px;
+    padding-right:6px;
 }
 
-.menu ul li a:hover{
-    color:var(--color3);
+#menu ul li a:hover{
+    color:var(--color1);
+    background:var(--color2);
+    border-radius:5px;
 }
 
 .hero{
-    background:var(--color3);
-    padding-top:40px;
-    padding-bottom:40px;
+    padding:20px;
 
-    border:var(--color3) solid 20px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.495) 0%, rgba(255,255,255,0) 50%);
+    
+    background-color:var(--color3);
+    border-bottom:2px solid var(--color2);
+    border-radius:20px 20px 0px 0px;
 }
 
 .hero h1{
-    font-family:roboto;
+    font-family:montserrat;
     font-size:3rem;
     text-align:center;
     margin:0;
@@ -120,17 +146,18 @@ padding-right:20px;
 
 .hero h2{
     font-size: 2.2rem;
-    font-family:roboto;
+    font-family:inconsolata;
     text-align:center;
     margin:0;
     padding:0;
-    letter-spacing: 20px;;
     color:var(--color2);
     margin-left:10px;
 }
 
 .main{
-    background:var(--color2);
+    background:var(--color4);
+    padding:10px;
+    padding-bottom:20px;
 }
 
 
@@ -169,14 +196,15 @@ padding-right:20px;
 .packages{
     display:flex;
     flex-flow:row wrap;
+    justify-content: space-between;
+    padding-bottom:20px;
 }
 
 .package{
-    flex:1 0 29%;
+    flex:1 0 31%;
     font-family:bebas;
-    padding:10px;
-    background:var(--color2);
-    margin:10px;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 .package button{
@@ -185,15 +213,20 @@ padding-right:20px;
     font-size:1rem;
     color:var(--color2);
     background:var(--color1);
-    flex:1;
-
     word-spacing: 10px;
     width:100%;
+    border-radius:0px 0px 5px 5px;
+    border:none;
 }
 
-.package p{
-    padding-right:30px;
-    padding-left:30px;
+.package button:hover{
+    background:var(--color2);
+    color:var(--color3);
+}
+
+.package button:active{
+    position:relative;
+    top:2px;
 }
 
 .package h1{
@@ -202,26 +235,29 @@ padding-right:20px;
     padding:5px;
     text-align: left;
     word-spacing: 10px;
+    border-radius:5px 5px 0px 0px;
 }
 
 .package h2{
-    color:var(--color1);
-    padding:5px;
-    text-align: center;
+    color:var(--color2);
+    padding-left:30px;
+    text-align: left;
 }
 
 .package p{
     text-align: justify;
     text-justify: inter-word;
     color:var(--color1);
+    padding-right:30px;
+    padding-left:30px;
+    color:var(--color2);
 
 }
 
 .products{
     display:flex;
     flex-flow:row wrap;
-    justify-content: space-between;
-    margin-bottom:20px;
+    justify-content: space-evenly;
 }
 
 .iconContainer svg{
@@ -230,9 +266,9 @@ padding-right:20px;
 }
 
 .iconContainer{
-    flex:1 0 15%;
-    padding:50px;
-    text-align: center;
+    flex:1 0 19%;
+    padding:10px;
+    max-width:19%
 }
 
 .products div:hover{
@@ -245,9 +281,10 @@ padding-right:20px;
 
 }
 
-
-
-
+.clicky:active{
+    position:relative;
+    top:2px;
+}
 
 
 
@@ -262,12 +299,18 @@ padding-right:20px;
 
 
 .footer{
+    background:var(--color3);
+}
+
+
+
+.footerMenu{
         padding:10px;
         background:var(--color1);
 
 }
 
-.footer ul{
+.footerMenu ul{
     display:flex;
     flex-flow:row nowrap;
     list-style: none;
@@ -276,12 +319,12 @@ padding-right:20px;
     margin:0px;
 }
 
-.footer ul li{
+.footerMenu ul li{
     text-align: center;
     align-items: center;
 }
 
-.footer ul li a{
+.footerMenu ul li a{
     color:var(--color2);
     text-decoration: none;
     font-family:bebas;
@@ -314,19 +357,28 @@ padding-right:20px;
     font-family:bebas;
 }
 
+.social ul li a svg{
+    max-height:40px;
+    max-width:40px;
+    fill:var(--color2);
+}
+
+#menuButton{
+    display:none;
+}
 
 .header { grid-area: header; }
-.menu { grid-area: menu; }
+#menu { grid-area: menu; }
 .main { grid-area: main; }
 .hero { grid-area: right; }
-.footer { grid-area: footer; }
+.footerMenu { grid-area: footer; }
 .social {grid-area: social; }
 
 
 #grid-container {
   display: grid;
   grid-template-areas:
-    'header header header menu menu menu'
+    'menu menu menu menu menu menu'
     'right right right right right right'
     'main main main main main main'
     'footer footer footer social social social';
@@ -360,12 +412,77 @@ padding-right:20px;
 
     
 .package{
-flex:1 1 100%;
+flex:1 0 100%;
+padding:0px;
+margin:0px;
 }
 
 .header{
     padding-top:10px;
-    padding-bottom:10px;
+    padding-bottom:2px;
 }
+
+#menu{
+    position:fixed;
+    top:100%;
+    left:0;
+    background:var(--color3);
+    padding:0;
+    margin:0;
+    border-bottom:solid 5px var(--color2);
+    width:100%;
+    display:block;
+    transition:1s;
+}
+
+
+
+#menu nav ul{
+    display:flex;
+    flex-flow:column nowrap;
+    padding:0;
+    margin:0;
+}
+
+#menu nav ul li{
+    margin:10px;
+    width:100%;
+}
+
+#menu nav ul li:last-child{
+    margin-bottom:50px;
+}
+
+#menu nav ul li a{
+    margin-bottom:50px;
+    color:var(--color2);
+}
+
+#menu nav ul li a:hover{
+    color:var(--color3);
+}
+
+
+#menuButton{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:var(--color3);
+    display:block;
+    align-items: center;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    padding:20px;
+}
+
+
+#menuButton svg{
+fill:var(--color2);
+height:auto;
+width:auto;
+}
+
+
 
   }

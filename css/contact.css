@@ -1,0 +1,37 @@
+* {box-sizing: border-box;}
+
+body{
+  font-family:bebas;
+}
+
+.formContainer{
+  padding:20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family:bebas;
+
+}
+
+input[type=submit] {
+  background-color: var(--color3);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:20%;
+  font-family:bebas;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
