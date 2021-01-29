@@ -3,6 +3,7 @@
     --color2:rgb(255, 255, 255);
     --color3:#e75bbd ;
     --color4:#a9e8ff ;
+    --color5:#000000 ;
 }
 
 body{
@@ -46,6 +47,7 @@ svg { max-width: 100%; }
     width:100%;
     position:sticky;
     top:0px;
+    border-bottom:2px solid var(--color3);
 }
 
 .header a{
@@ -67,12 +69,18 @@ svg { max-width: 100%; }
     padding-right:5px;
     border-radius: 0px 0px 5px 5px;
     transition:.3s;
+    border:2px solid var(--color1);
+    border-top:none;
+    box-shadow:0px 0px 5px var(--color1);
 }
 
 .header a:hover span{
     color:var(--color1);
     background:var(--color2);
     transition:.3s;
+    border:2px solid var(--color3);
+    border-top:none;
+    transition:.5s;
 }
 
 .header a:hover{
@@ -120,7 +128,7 @@ z-index:1;
 }
 
 #menu ul li a:hover{
-    color:var(--color1);
+    color:var(--color3);
     background:var(--color2);
     border-radius:5px;
 }
@@ -131,7 +139,7 @@ z-index:1;
     background: linear-gradient(180deg, rgba(255,255,255,0.495) 0%, rgba(255,255,255,0) 50%);
     
     background-color:var(--color3);
-    border-bottom:2px solid var(--color2);
+    border-bottom:4px solid var(--color2);
     border-radius:20px 20px 0px 0px;
 }
 
@@ -142,6 +150,7 @@ z-index:1;
     margin:0;
     padding:0;
     color:var(--color2);
+    
 }
 
 .hero h2{
@@ -157,7 +166,6 @@ z-index:1;
 .main{
     background:var(--color4);
     padding:10px;
-    padding-bottom:20px;
 }
 
 
@@ -204,24 +212,35 @@ z-index:1;
 .package{
     flex:1 0 31%;
     font-family:bebas;
-    padding-left:20px;
-    padding-right:20px;
+    margin:10px;
+    background:var(--color2);
+    padding:0px;
+    border-radius:5px 5px 5px 5px;
+    box-shadow:0px 0px 15px var(--color1);
+
 }
 
 .package button{
     padding:10px;
-    font-family:bebas;
-    font-size:1rem;
-    color:var(--color2);
-    background:var(--color1);
-    word-spacing: 10px;
     width:100%;
     border-radius:0px 0px 5px 5px;
     border:none;
+    background:var(--color1);
+    background: linear-gradient(0deg, var(--color1)  25%, rgba(255,255,255,0) 150%);
+
+
+}
+
+.package button a{
+    font-family:bebas;
+    font-size:1.2rem;
+    color:var(--color2);
+    word-spacing: 10px;
+    text-decoration: none;
 }
 
 .package button:hover{
-    background:var(--color2);
+    background:var(--color3);
     color:var(--color3);
 }
 
@@ -231,16 +250,21 @@ z-index:1;
 }
 
 .package h1{
+    font-size:1.2rem;
     background:var(--color1);
     color:var(--color2);
     padding:5px;
     text-align: left;
     word-spacing: 10px;
     border-radius:5px 5px 0px 0px;
+    margin-top:0px;
+    padding-left:30px;   
+    background: linear-gradient(180deg, var(--color3) 25%, rgba(255,255,255,0) 150%);
+
 }
 
 .package h2{
-    color:var(--color2);
+    color:var(--color3);
     padding-left:30px;
     text-align: left;
 }
@@ -251,8 +275,7 @@ z-index:1;
     color:var(--color1);
     padding-right:30px;
     padding-left:30px;
-    color:var(--color2);
-
+    color:var(--color1);
 }
 
 .products{
@@ -371,7 +394,7 @@ z-index:1;
 .header { grid-area: header; }
 #menu { grid-area: menu; }
 .main { grid-area: main; }
-.hero { grid-area: right; }
+.hero { grid-area: hero; }
 .footerMenu { grid-area: footer; }
 .social {grid-area: social; }
 
@@ -380,7 +403,7 @@ z-index:1;
   display: grid;
   grid-template-areas:
     'menu menu menu menu menu menu'
-    'right right right right right right'
+    'hero hero hero hero hero hero'
     'main main main main main main'
     'footer footer footer social social social';
   grid-gap: 10px;
@@ -396,7 +419,7 @@ z-index:1;
         grid-template-areas:
           'header header header header header header'
           'menu menu menu menu menu menu'
-          'right right right right right right'
+          'hero hero hero hero hero hero'
           'main main main main main main'
           'footer footer footer footer footer footer'
           'social social social social social social';
