@@ -55,7 +55,7 @@ svg { max-width: 100%; }
 }
 
 .header a{
-    font-family:bebas;
+        font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color:var(--color1);
     font-size:1rem;
@@ -121,7 +121,7 @@ z-index:1;
 }
 
 #menu ul li a{
-    font-family:bebas;
+        font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color:var(--color2);
     font-size:1rem;
@@ -215,7 +215,7 @@ z-index:1;
 
 .package{
     flex:1 0 33%;
-    font-family:bebas;
+        font-family: 'Bebas Neue', cursive;
     margin:20px;
     background:var(--color2);
     padding:0px;
@@ -237,7 +237,7 @@ z-index:1;
 }
 
 .package button a{
-    font-family:bebas;
+        font-family: 'Bebas Neue', cursive;
     font-size:1.2rem;
     color:var(--color2);
     word-spacing: 10px;
@@ -367,7 +367,7 @@ z-index:1;
 .footerMenu ul li a{
     color:var(--color2);
     text-decoration: none;
-    font-family:bebas;
+        font-family: 'Bebas Neue', cursive;
     padding:10px;
 }
 
@@ -402,7 +402,7 @@ z-index:1;
 .social ul li a{
     color:var(--color2);
     text-decoration: none;
-    font-family:bebas;
+        font-family: 'Bebas Neue', cursive;
 }
 
 .social ul li a svg{
