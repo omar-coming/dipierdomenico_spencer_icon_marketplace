@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 :root{
     --color1:#5BC2E7;
@@ -158,7 +159,7 @@ z-index:1;
 
 .hero h2{
     font-size: 1.8rem;
-    font-family:inconsolata;
+    font-family: 'Inconsolata', monospace;
     text-align:center;
     margin:0;
     padding:0;
