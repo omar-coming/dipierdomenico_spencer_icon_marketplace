@@ -23,15 +23,6 @@ function lightMode() {
         }
       } 
 
-function changeBig() {
-    document.getElementById("grid-container").style.maxWidth="100%";
-    }
-
-
-function changeSmall() {
-    document.getElementById("grid-container").style.maxWidth="1200px";
-    }
-
     function pdfBigger() {
       var x = document.getElementById("infoSheet");
       if (x.style.height === "100vh") {

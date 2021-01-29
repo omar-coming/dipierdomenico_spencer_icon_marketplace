@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
     --color1:#5BC2E7;
@@ -422,6 +422,7 @@ z-index:1;
 
 #menuButton{
     display:none;
+    z-index:4;
 }
 
 .header { grid-area: header; }
