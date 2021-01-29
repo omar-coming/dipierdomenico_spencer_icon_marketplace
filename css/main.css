@@ -460,13 +460,19 @@ z-index:1;
       }
 
       .iconContainer{
-        flex:1 0 30%;
+        flex:1 0 33%;
         padding:10px;
         box-sizing: border-box;
         margin:0 auto;
         text-align: center;
         max-width:30%;
     }
+
+
+.packages{
+    margin:0;
+    padding:10px;
+}
 
 
 .package{
@@ -496,6 +502,7 @@ margin-bottom:30px;
     width:100%;
     display:block;
     transition:.5s;
+    z-index:3;
 }
 
 
