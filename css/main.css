@@ -3,7 +3,7 @@
 
 :root{
     --color1:#5BC2E7;
-    --color2:rgb(255, 255, 255);
+    --color2:#fff;
     --color3:#e75bbd ;
     --color4:#a9e8ff ;
     --color5:#000000 ;
@@ -51,6 +51,7 @@ svg { max-width: 100%; }
     position:sticky;
     top:0px;
     border-bottom:2px solid var(--color3);
+    z-index:3;
 }
 
 .header a{
@@ -90,7 +91,6 @@ svg { max-width: 100%; }
 cursor:pointer;
 color:var(--color3);
 transition:.3s;
-
 }
 
 
@@ -104,7 +104,7 @@ transition:.3s;
 
 #menu{
 padding-left:20px;
-padding-right:20px;
+padding-right:50px;
 z-index:1;
 }
 
@@ -246,6 +246,7 @@ z-index:1;
 
 .package button:hover{
     background:var(--color3);
+    background: linear-gradient(0deg, var(--color3) 25%, rgba(255,255,255,0) 150%);
     color:var(--color3);
 }
 
@@ -367,10 +368,14 @@ z-index:1;
     color:var(--color2);
     text-decoration: none;
     font-family:bebas;
+    padding:10px;
 }
 
 .footerMenu ul li a:hover{
     color:var(--color3);
+    background:var(--color2);
+    border-radius:5px;    
+    cursor:pointer;
 }
 
 
@@ -404,11 +409,16 @@ z-index:1;
     max-height:40px;
     max-width:40px;
     fill:var(--color2);
+    padding:10px;
+    border-radius:5px;
+
+
 }
 
 .social ul li a svg:hover{
     fill:var(--color3);
-}
+    background:var(--color2);
+ }
 
 #menuButton{
     display:none;
@@ -432,7 +442,7 @@ z-index:1;
   grid-gap: 10px;
   background-color: var(--color1);
   padding: 10px;
-  max-width:1300px;
+  max-width:1200px;
   margin:0 auto;
 }
 
