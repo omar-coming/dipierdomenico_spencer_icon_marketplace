@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="gumballs" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#DD715B;}
@@ -21,6 +21,11 @@
 	.st15{fill:#89741B;}
 	.st16{fill:#DDC45B;}
 	.st17{fill:#FFFBE9;}
+
+	#blueGum2:hover, #pinkGum:hover, #purpleGum2:hover, #bluegum1:hover, #greenGum:hover, #redGum:hover, #orangeGum:hover{
+		transform:translatey(5px);
+		transition:.5s;
+	}
 </style>
 <circle class="st0" cx="50" cy="50" r="48.2"/>
 <g>
@@ -66,9 +71,24 @@
 		<path class="st13" d="M61.2,48.4c-0.4,21-31.6,21-32,0C29.6,27.4,60.8,27.4,61.2,48.4z"/>
 		<path class="st14" d="M45.3,43.4c-0.1,8.5-12.8,8.5-12.9,0C32.5,34.9,45.2,34.9,45.3,43.4z"/>
 	</g>
+	<g id="orangeGum">
 	<path d="M79,65c-0.3,19.4-29.2,19.4-29.6,0C49.8,45.6,78.7,45.6,79,65z"/>
 	<path class="st15" d="M78.1,65c-0.3,18.2-27.4,18.2-27.7,0C50.7,46.8,77.8,46.8,78.1,65z"/>
 	<path class="st16" d="M74.6,63.7c-0.3,15.3-23,15.3-23.2,0C51.6,48.4,74.3,48.4,74.6,63.7z"/>
 	<path class="st17" d="M63,60c0,6.1-9.4,6.1-9.4,0C53.6,53.9,63,53.9,63,60z"/>
+	</g>
 </g>
+<defs>
+<script>
+
+let icon = document.querySelector("#gumballs");
+
+function logMyId() {
+	console.log(this.id);
+}
+
+icon.addEventListener("click", () => { console.log(this); });
+
+</script>
+</defs>
 </svg>

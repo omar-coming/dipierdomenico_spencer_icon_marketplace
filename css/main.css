@@ -129,6 +129,7 @@ z-index:1;
     font-size:1rem;
     letter-spacing: 5px;
     padding:10px;
+    padding-right:6px;
     text-align: center;   
     
     text-transform: uppercase;
@@ -325,7 +326,7 @@ z-index:1;
     justify-content: space-evenly;
 }
 
-.iconContainer svg{
+.iconContainer object{
     height:100%;
     width:100%;    
 }
