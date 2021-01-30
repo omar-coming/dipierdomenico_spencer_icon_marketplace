@@ -47,6 +47,7 @@ svg { max-width: 100%; }
     top:0px;
     border-bottom:2px solid var(--color3);
     z-index:3;
+
     
 }
 
@@ -544,7 +545,6 @@ height:auto;
     margin:0px;
     width:100%;
     margin-top:5vh;
-    text-align:right;
     margin-right:20px;
     padding-right:10px;
     border-right:2px var(--color2) solid;
