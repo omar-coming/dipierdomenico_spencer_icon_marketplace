@@ -39,6 +39,13 @@ function lightMode() {
       } else {
         x.style.top = "0%";
       }
+
+      var x = document.getElementById("menuBottom");
+      if (x.style.bottom === "0px") {
+        x.style.bottom = "-130px";
+      } else {
+        x.style.bottom = "0px";
+      }
     } 
     
 function reply_click(clicked_id) {
