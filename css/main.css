@@ -4,6 +4,7 @@
     --color3:#e75bbd ;
     --color4:#a9e8ff ;
     --color5:#000000 ;
+    --color6:#c7339a ;
 }
 
 body{
@@ -56,7 +57,7 @@ svg { max-width: 100%; }
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color:var(--color1);
-    font-size:1rem;
+    font-size:1.75rem;
     word-spacing: 20px;
     letter-spacing: 5px;
     text-align: center;
@@ -472,7 +473,7 @@ z-index:1;
 #gutter{
     height:0px;
     width:100%;
-    background:var(--color3);
+    background:var(--color6);
     transition:1s;
 }
 
@@ -488,6 +489,7 @@ z-index:1;
           'social social social social social social'
           'gutter gutter gutter gutter gutter gutter'
           ;
+          grid-gap: 0px;
       }
 
       .iconContainer{
@@ -552,6 +554,7 @@ max-width:100%;
     width:100%;
     transition:.5s;
     z-index:3;
+    height:calc(100% - 130px);
 }
 
 
