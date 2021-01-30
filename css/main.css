@@ -47,6 +47,7 @@ svg { max-width: 100%; }
     border-bottom:2px solid var(--color3);
     z-index:3;
     margin:0 auto;
+    width:100%;
 
     
 }
