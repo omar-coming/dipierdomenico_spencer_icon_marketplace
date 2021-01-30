@@ -509,9 +509,8 @@ margin-bottom:15px;
 }
 
 .package p{
-    padding-bottom:30px;
-    padding-left:30px;
-    padding-right:30px;
+    padding:20px;
+    margin:0px;
 }
 
 .package:last-child{
