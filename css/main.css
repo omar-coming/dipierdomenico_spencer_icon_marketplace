@@ -538,18 +538,21 @@ height:auto;
 #menu nav ul li{
     margin:0px;
     width:100%;
-    margin-top:100px;
+    margin-top:5vh;
     text-align:right;
+    margin-right:20px;
+    padding-right:10px;
+    border-right:2px var(--color2) solid;
 
 }
 
 #menu nav ul li:last-child{
-    margin-bottom:100px;
+    margin-bottom:5vh;
 }
 
 #menu nav ul li a{
     color:var(--color2);
-    font-size:3rem;
+    font-size:2rem;
     text-transform: uppercase;
 }
 
