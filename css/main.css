@@ -521,7 +521,7 @@ height:auto;
 
 #menu{
     position:fixed;
-    top:-100%;
+    top:-200%;
     left:0;
     background:var(--color3);
     padding:0;
@@ -557,7 +557,7 @@ height:auto;
 
 #menu nav ul li a{
     color:var(--color2);
-    font-size:2rem;
+    font-size:1.75;
     text-transform: uppercase;
 }
 
