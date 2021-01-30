@@ -140,8 +140,7 @@ z-index:1;
 }
 
 .hero{
-    padding-top:20px;
-    padding-bottom:20px;
+    padding:20px;
 
     background: linear-gradient(180deg, rgba(255,255,255,0.495) 0%, rgba(255,255,255,0) 50%);
     
@@ -149,6 +148,7 @@ z-index:1;
     border-bottom:4px solid var(--color2);
     border-radius:20px 20px 0px 0px;
 
+    margin:10px;
     margin-bottom:0px;
 }
 
@@ -456,9 +456,8 @@ z-index:1;
   grid-gap: 10px;
   background-color: var(--color1);
   max-width:1200px;
-  margin:10px;
-  margin-left: auto;
-  margin-right:auto;
+  padding:10px;
+  margin:0 auto;
 }
 
 #gutter{
@@ -493,7 +492,7 @@ z-index:1;
 
 
 .packages{
-    margin:10px;
+    margin:0px;
     padding:0px;
 }
 
