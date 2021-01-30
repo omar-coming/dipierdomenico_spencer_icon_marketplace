@@ -590,7 +590,7 @@ max-width:100%;
 
 #menu nav ul{
     display:flex;
-    flex-flow:column nowrap;
+    flex-flow:column-reverse;
 }
 
 #menu nav ul li{
