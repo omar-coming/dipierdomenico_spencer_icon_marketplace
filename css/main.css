@@ -444,7 +444,6 @@ z-index:1;
 .hero { grid-area: hero; }
 .footerMenu { grid-area: footer; }
 .social {grid-area: social; }
-#gutter{grid-area:gutter;}
 
 
 #grid-container {
@@ -480,7 +479,6 @@ z-index:1;
           'main main main main main main'
           'footer footer footer footer footer footer'
           'social social social social social social'
-          'gutter gutter gutter gutter gutter gutter'
           ;
       }
 
