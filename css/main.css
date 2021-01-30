@@ -251,6 +251,8 @@ z-index:1;
     color:var(--color2);
     word-spacing: 10px;
     text-decoration: none;
+    text-transform:uppercase;
+
 }
 
 .package button:hover{
@@ -271,11 +273,16 @@ z-index:1;
     color:var(--color2);
     padding:5px;
     padding-bottom:2px;
+    text-transform:uppercase;
+    font-family: 'Yusei Magic', sans-serif;
+
     text-align: left;
     word-spacing: 10px;
     border-radius:5px 5px 0px 0px;
     margin-top:0px;
-    padding-left:30px;   
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:10px;   
     background: linear-gradient(180deg, var(--color3) 25%, rgba(255,255,255,0) 150%);
 
 }
@@ -286,6 +293,8 @@ z-index:1;
     text-align: left;
     font-family: 'Yusei Magic', sans-serif;
     padding-top:20px;
+    font-size:1.5rem;
+
 
 }
 
@@ -306,6 +315,7 @@ z-index:1;
     padding-left:30px;
     padding-top:10px;
     padding-bottom:20px;
+    font-size:1rem;
 
 }
 
