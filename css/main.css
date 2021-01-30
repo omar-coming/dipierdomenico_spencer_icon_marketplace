@@ -33,11 +33,9 @@ svg { max-width: 100%; }
     word-spacing:10px;
     text-align: center;
     width:auto;
-    padding:5px;
+    padding:25px;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,0.495) 0%, rgba(255,255,255,0) 50%);
-
-
 }
 
 
@@ -56,7 +54,7 @@ svg { max-width: 100%; }
 }
 
 .header a{
-        font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color:var(--color1);
     font-size:1rem;
@@ -75,7 +73,7 @@ svg { max-width: 100%; }
     border-radius: 0px 0px 5px 5px;
     transition:.3s;
     border:2px solid var(--color1);
-    border-top:none;
+    border-top:2px solid var(--color1);
     box-shadow:0px 0px 5px var(--color1);
 }
 
@@ -113,12 +111,13 @@ z-index:1;
     list-style: none;
     display:flex;
     flex-flow:row nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding:25px;
 
 }
 
 #menu ul li{
-    padding-top:20px;
+    margin-left:20px;
 }
 
 #menu ul li a{
@@ -128,7 +127,7 @@ z-index:1;
     font-size:1rem;
     letter-spacing: 5px;
     padding:10px;
-    padding-right:6px;
+    text-align: center;    
 }
 
 #menu ul li a:hover{
@@ -216,13 +215,15 @@ z-index:1;
 
 .package{
     flex:1 0 33%;
-        font-family: 'Bebas Neue', cursive;
-    margin:20px;
+    font-family: 'Bebas Neue', cursive;
     background:var(--color2);
     padding:0px;
     border-radius:5px 5px 5px 5px;
     box-shadow:0px 0px 15px var(--color1);
-    height:auto;
+
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
 
 }
 
@@ -233,8 +234,6 @@ z-index:1;
     border:none;
     background:var(--color1);
     background: linear-gradient(0deg, var(--color1)  25%, rgba(255,255,255,0) 150%);
-
-
 }
 
 .package button a{
@@ -258,10 +257,11 @@ z-index:1;
 
 .package h1{
     
-    font-size:1.2rem;
+    font-size:1.5rem;
     background:var(--color1);
     color:var(--color2);
     padding:5px;
+    padding-bottom:2px;
     text-align: left;
     word-spacing: 10px;
     border-radius:5px 5px 0px 0px;
@@ -276,14 +276,14 @@ z-index:1;
     padding-left:30px;
     text-align: left;
     font-family: 'Yusei Magic', sans-serif;
+    padding-top:20px;
+
 }
 
 .package p{
     text-align: justify;
     text-justify: inter-word;
-    color:var(--color1);
-    padding-right:30px;
-    padding-left:30px;
+
     color:var(--color1);
     font-family: 'Yusei Magic', sans-serif;
 
@@ -292,6 +292,11 @@ z-index:1;
     display: -webkit-box;
     -webkit-line-clamp: 4; /* number of lines to show */
     -webkit-box-orient: vertical;
+
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:20px;
 
 }
 
@@ -448,6 +453,13 @@ z-index:1;
   margin:0 auto;
 }
 
+#gutter{
+    height:0px;
+    width:100%;
+    background:var(--color3);
+    transition:1s;
+}
+
 @media only screen and (max-width: 600px) {
     #grid-container {
         display: grid;
@@ -480,7 +492,7 @@ z-index:1;
 flex:1 0 100%;
 padding:0px;
 margin:0px;
-margin-bottom:30px;
+margin-bottom:15px;
 }
 
 .package:last-child{
@@ -552,6 +564,10 @@ margin-bottom:30px;
 fill:var(--color2);
 height:auto;
 width:auto;
+}
+
+#gutter{
+    height:130px;
 }
 
 
