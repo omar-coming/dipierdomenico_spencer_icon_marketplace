@@ -567,6 +567,7 @@ max-width:100%;
     padding-right:10px;
     border-right:2px var(--color2) solid;
     text-align:right;
+    overflow-y:hidden;
 
 }
 
