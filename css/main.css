@@ -455,12 +455,15 @@ z-index:1;
     'menu menu menu menu menu menu'
     'hero hero hero hero hero hero'
     'main main main main main main'
-    'footer footer footer social social social';
-  grid-gap: 10px;
+    'footer footer footer social social social'
+    'gutter gutter gutter gutter gutter gutter'
+    ;
+  grid-gap: 0px;
   padding:0px;
-  margin:auto;
   box-sizing:border-box;
   max-width:1200px;
+  margin:0 auto;
+
 }
 
 #gutter{
