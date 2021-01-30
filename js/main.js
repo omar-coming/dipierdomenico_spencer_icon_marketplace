@@ -4,6 +4,8 @@ function lightMode() {
     document.documentElement.style.setProperty('--color3', '#e75bbd');
     document.documentElement.style.setProperty('--color4', '#a9e8ff');
     document.documentElement.style.setProperty('--color5', '#000000');
+    document.documentElement.style.setProperty('--color6', '#c7339a');
+
     }
 
     function darkMode() {
@@ -12,6 +14,8 @@ function lightMode() {
       document.documentElement.style.setProperty('--color3', '#8f3535');
       document.documentElement.style.setProperty('--color4', '#555');
       document.documentElement.style.setProperty('--color5', '#999');
+      document.documentElement.style.setProperty('--color6', '#c73333');
+
       }
 
       function changeSize() {
