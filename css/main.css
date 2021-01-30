@@ -10,6 +10,7 @@ body{
     background: var(--color1);
 }
 
+
 ::-moz-selection { /* Code for Firefox */
     color: var(--color2);
     background: var(--color3);
@@ -456,10 +457,9 @@ z-index:1;
     'main main main main main main'
     'footer footer footer social social social';
   grid-gap: 10px;
-  max-width:1200px;
-  padding:20px;
-  padding-top:0px;
-  margin: auto;
+  padding:0px;
+  margin:auto;
+  box-sizing:border-box;
 }
 
 #gutter{
