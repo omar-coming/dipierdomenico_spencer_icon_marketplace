@@ -37,9 +37,6 @@ svg { max-width: 100%; }
 
 
 .header{
-    list-style: none;
-    display:flex;
-    flex-flow:row wrap;
     justify-content: center;
     align-items: center;
     background:var(--color2);
@@ -49,6 +46,7 @@ svg { max-width: 100%; }
     z-index:3;
     margin:0 auto;
     width:100%;
+    text-align: center;
 
     
 }
@@ -63,15 +61,14 @@ svg { max-width: 100%; }
     text-align: center;
     cursor:pointer;
     transition:.3s;
-    padding:10px;
-    padding-bottom:5px;
+
 }
 
 .header a span{
     background:var(--color1);
     color:var(--color2);
-    padding:10px;
-    padding-right:5px;
+    padding-left:10px;
+    padding-right:6px;
     border-radius: 0px 0px 5px 5px;
     transition:.3s;
     border:2px solid var(--color1);
@@ -104,8 +101,7 @@ transition:.3s;
 
 
 #menu{
-padding-left:20px;
-padding-right:50px;
+
 z-index:1;
 }
 
