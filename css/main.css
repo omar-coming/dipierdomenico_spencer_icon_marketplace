@@ -6,11 +6,6 @@
     --color5:#000000 ;
 }
 
-html, body{
-    max-width:100%;
-    overflow-x:hidden;
-}
-
 body{
     background: var(--color1);
 }
@@ -520,7 +515,6 @@ z-index:1;
 
 .packages{
     margin:0px;
-    padding:10px;
 }
 
 
@@ -529,6 +523,7 @@ flex:1 0 100%;
 margin:0px;
 padding:0px;
 margin-bottom:15px;
+max-width:100%;
 
 }
 
