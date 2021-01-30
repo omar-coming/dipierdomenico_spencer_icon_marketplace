@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
 :root{
     --color1:#5BC2E7;
     --color2:#fff;
@@ -51,6 +47,7 @@ svg { max-width: 100%; }
     top:0px;
     border-bottom:2px solid var(--color3);
     z-index:3;
+    
 }
 
 .header a{
@@ -63,6 +60,8 @@ svg { max-width: 100%; }
     text-align: center;
     cursor:pointer;
     transition:.3s;
+    padding:10px;
+    padding-bottom:5px;
 }
 
 .header a span{
@@ -121,13 +120,16 @@ z-index:1;
 }
 
 #menu ul li a{
-        font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color:var(--color2);
     font-size:1rem;
     letter-spacing: 5px;
     padding:10px;
-    text-align: center;    
+    text-align: center;   
+    
+    text-transform: uppercase;
+
 }
 
 #menu ul li a:hover{
@@ -137,13 +139,17 @@ z-index:1;
 }
 
 .hero{
-    padding:20px;
+    padding-top:20px;
+    padding-bottom:20px;
 
     background: linear-gradient(180deg, rgba(255,255,255,0.495) 0%, rgba(255,255,255,0) 50%);
     
     background-color:var(--color3);
     border-bottom:4px solid var(--color2);
     border-radius:20px 20px 0px 0px;
+
+    margin:10px;
+    margin-bottom:0px;
 }
 
 .hero h1{
@@ -170,6 +176,8 @@ z-index:1;
 .main{
     background:var(--color4);
     padding:10px;
+    margin:10px;
+    margin-top:0px;
 }
 
 
@@ -215,8 +223,8 @@ z-index:1;
 
 .package{
     flex:1 0 33%;
-    font-family: 'Bebas Neue', cursive;
-    background:var(--color2);
+    font-family: 'Roboto', sans-serif;
+        background:var(--color2);
     padding:0px;
     border-radius:5px 5px 5px 5px;
     box-shadow:0px 0px 15px var(--color1);
@@ -237,8 +245,8 @@ z-index:1;
 }
 
 .package button a{
-        font-family: 'Bebas Neue', cursive;
-    font-size:1.2rem;
+        font-family: 'Roboto', sans-serif;
+            font-size:1.2rem;
     color:var(--color2);
     word-spacing: 10px;
     text-decoration: none;
@@ -361,8 +369,9 @@ z-index:1;
     flex-flow:row nowrap;
     list-style: none;
     justify-content: space-evenly;
-    padding:0px;
     margin:0px;
+    align-items: center;
+    padding:25px;
 }
 
 .footerMenu ul li{
@@ -373,8 +382,8 @@ z-index:1;
 .footerMenu ul li a{
     color:var(--color2);
     text-decoration: none;
-        font-family: 'Bebas Neue', cursive;
-    padding:10px;
+        font-family: 'Roboto', sans-serif;
+            padding:10px;
 }
 
 .footerMenu ul li a:hover{
@@ -408,8 +417,8 @@ z-index:1;
 .social ul li a{
     color:var(--color2);
     text-decoration: none;
-        font-family: 'Bebas Neue', cursive;
-}
+        font-family: 'Roboto', sans-serif;
+    }
 
 .social ul li a svg{
     max-height:40px;
@@ -448,9 +457,10 @@ z-index:1;
     'footer footer footer social social social';
   grid-gap: 10px;
   background-color: var(--color1);
-  padding: 10px;
   max-width:1200px;
-  margin:0 auto;
+  margin:10px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 #gutter{
@@ -484,7 +494,6 @@ z-index:1;
 
 .packages{
     margin:0;
-    padding:10px;
 }
 
 
@@ -493,6 +502,7 @@ flex:1 0 100%;
 padding:0px;
 margin:0px;
 margin-bottom:15px;
+height:auto;
 }
 
 .package p{
@@ -505,11 +515,6 @@ margin-bottom:15px;
     margin-bottom:0px;
 }
 
-.header{
-    padding-top:10px;
-    padding-bottom:2px;
-}
-
 #menu{
     position:fixed;
     top:-100%;
@@ -519,7 +524,6 @@ margin-bottom:15px;
     margin:0;
     border-bottom:solid 5px var(--color2);
     width:100%;
-    display:block;
     transition:.5s;
     z-index:3;
 }
@@ -540,12 +544,13 @@ margin-bottom:15px;
 }
 
 #menu nav ul li:last-child{
-    margin-bottom:50px;
+    margin-bottom:100px;
 }
 
 #menu nav ul li a{
     color:var(--color2);
     font-size:3rem;
+    text-transform: uppercase;
 }
 
 #menu nav ul li a:hover{

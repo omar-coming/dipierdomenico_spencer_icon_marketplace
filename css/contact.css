@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
 .formContainer{
   padding:20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 label{
@@ -13,6 +9,7 @@ label{
   padding:5px;
   margin-left:15px;
   background:var(--color3);
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 input[type=text], select, textarea {
@@ -23,9 +20,10 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-bottom: 20px;
   resize: vertical;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
   word-spacing: 6px;
   color:var(--color3);
+  margin-top:12px;
 
 }
 
@@ -52,7 +50,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   width:20%;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 input[type=submit]:hover {
