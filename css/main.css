@@ -528,8 +528,7 @@ max-width:100%;
 }
 
 .package p{
-    padding-top:20px;
-    padding-bottom:20px;
+    padding:0px;
     margin:0px;
 }
 
