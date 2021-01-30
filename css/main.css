@@ -175,7 +175,9 @@ z-index:1;
 
 .main{
     background:var(--color4);
-    margin-top:0px;
+
+    padding:10px;
+
 }
 
 
@@ -524,11 +526,15 @@ padding:0px;
 margin-bottom:15px;
 max-width:100%;
 
+
 }
 
 .package p{
-    padding:0px;
-    margin:0px;
+
+    padding-left:30px;
+    padding-right:30px;
+
+
 }
 
 .package:last-child{
