@@ -359,6 +359,7 @@ z-index:1;
 .footerMenu{
         padding:10px;
         background:var(--color1);
+        overflow-y: hidden;
 
 }
 
@@ -395,6 +396,8 @@ z-index:1;
 .social{
     padding:10px;
     background:var(--color1);
+    overflow-y: hidden;
+
 
 }
 
