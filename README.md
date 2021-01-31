@@ -18,3 +18,4 @@ https://stackoverflow.com/questions/4825295/javascript-onclick-to-get-the-id-of-
 
 didn't get overlay onclick working in time. A few of the SVGs are poorly optimized for web. que sera.
 sloppy old js
+poor to no outline

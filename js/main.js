@@ -93,5 +93,5 @@ function reply_click(clicked_id) {
     } 
 
     function hideThis(){
-      document.querySelector(this).style.display="none";
+      document.querySelector(this.id).toggleClass('hideMe');
     }
