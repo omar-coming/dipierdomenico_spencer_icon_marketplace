@@ -4,7 +4,7 @@
 
 Spencer Dips
 
-# bibliography
+# my outdated tutorials I used
 
 https://stackoverflow.com/questions/41370741/how-do-i-edit-a-css-variable-using-js for changing CSS variables (for dark mode feature)
 
@@ -16,4 +16,5 @@ https://stackoverflow.com/questions/4825295/javascript-onclick-to-get-the-id-of-
 
 # problems
 
-- enlarge button on info page takes 1 extra click to work initially and then toggles properly after
+didn't get overlay onclick working in time. A few of the SVGs are poorly optimized for web. que sera.
+sloppy old js

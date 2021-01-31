@@ -1,3 +1,28 @@
+(() => {
+  console.log('fired up');
+
+  let theIcon = document.querySelector('.iconContainer img'),
+      theIcons = document.querySelectorAll('.iconContainer img');
+      overlay = document.querySelectorAll('.overlay')
+      overlays = document.querySelectorAll('.overlay')
+
+  function logMyId() {
+      console.log('clicked on an image');
+      console.log("Icon Selected:", this.id);
+  }
+
+  function hideThis() {
+    document.querySelector(this.id).style.display="none";
+  }
+
+  theIcon.addEventListener("click", logMyId);
+
+  theIcons.forEach(icon => icon.addEventListener("click", logMyId));
+
+  
+
+})()
+
 function lightMode() {
     document.documentElement.style.setProperty('--color1', '#5BC2E7');
     document.documentElement.style.setProperty('--color2', '#fff');
@@ -29,10 +54,10 @@ function lightMode() {
 
     function pdfBigger() {
       var x = document.getElementById("infoSheet");
-      if (x.style.height === "100vh") {
-        x.style.height = "25vh";
-      } else {
+      if (x.style.height === "25vh") {
         x.style.height = "100vh";
+      } else {
+        x.style.height = "25vh";
       }
     } 
 
@@ -56,3 +81,17 @@ function reply_click(clicked_id) {
         console.log(clicked_id);
     }
 
+
+    
+    function pdfBigger() {
+      var x = document.getElementById("infoSheet");
+      if (x.style.height === "25vh") {
+        x.style.height = "100vh";
+      } else {
+        x.style.height = "25vh";
+      }
+    } 
+
+    function hideThis(){
+      document.querySelector(this).style.display="none";
+    }

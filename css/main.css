@@ -7,6 +7,7 @@
     --color6:#c7339a ;
 }
 
+
 body{
     background: var(--color1);
 }
@@ -185,7 +186,7 @@ z-index:1;
 
 #infoSheet{
     position:relative;
-    height:25vh;
+    height:100vh;
     margin:0 auto;
     background:var(--color1);
 }
@@ -334,7 +335,33 @@ z-index:1;
 .iconContainer{
     flex:1 0 19%;
     padding:10px;
-    max-width:19%
+    max-width:19%;
+    position:relative;
+}
+
+.overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background:var(--color3);
+    border-radius:25% 25% 100% 100%;
+    opacity:85%;
+}
+
+.overlay p{
+    font-size:1.25rem;
+    color:var(--color2);
+    text-align:center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding:20px;
+
+}
+
+.overlay p span{
+    font-size:.85rem;
 }
 
 .products div:hover{

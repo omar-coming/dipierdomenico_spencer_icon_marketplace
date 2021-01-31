@@ -22,9 +22,44 @@
 	.st16{fill:#DDC45B;}
 	.st17{fill:#FFFBE9;}
 
-	#blueGum2:hover, #pinkGum:hover, #purpleGum2:hover, #bluegum1:hover, #greenGum:hover, #redGum:hover, #orangeGum:hover{
-		transform:translatey(5px);
-		transition:.5s;
+	*{
+		transition:1s;
+	}
+	#blueGum2:hover{		transform:scaley(1.5);
+	transform:translatey(10px);
+}
+	#pinkGum:hover{
+		transform:scaley(1.5);
+			transform:translatey(10px);
+
+	}
+	#purpleGum2:hover{
+		transform:scaley(1.5);
+			transform:translatey(10px);	}
+	#bluegum1:hover{
+		transform:scaley(1.5);
+			transform:translatey(10px);	}
+	#greenGum:hover{
+		transform:scaley(1.5);
+			transform:translatey(10px);
+	}
+
+
+	#redGum:hover{
+		transform:scaley(1.5);
+			transform:translatey(10px);
+
+	}
+
+	#orangeGum:hover{
+		transform:scaley(1.5);
+			transform:translatey(10px);
+			}
+
+
+	#purpleGum1:hover{
+		transform:scaley(1.5);
+			transform:translatey(10px);
 	}
 </style>
 <circle class="st0" cx="50" cy="50" r="48.2"/>
