@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg id="gumballs" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DD715B;}
+	.st1{fill:#1C478C;}
+	.st2{fill:#5AB0E0;}
+	.st3{fill:#E6FFFE;}
+	.st4{fill:#97009B;}
+	.st5{fill:#FF00FF;}
+	.st6{fill:#FDA6FF;}
+	.st7{fill:#6D1B87;}
+	.st8{fill:#AF5DDB;}
+	.st9{fill:#FCEBFF;}
+	.st10{fill:#893D1B;}
+	.st11{fill:#FFE9F0;}
+	.st12{fill:#1B8E29;}
+	.st13{fill:#3DE24D;}
+	.st14{fill:#E3FFE9;}
+	.st15{fill:#89741B;}
+	.st16{fill:#DDC45B;}
+	.st17{fill:#FFFBE9;}
+
+	#blueGum2:hover, #pinkGum:hover, #purpleGum2:hover, #bluegum1:hover, #greenGum:hover, #redGum:hover, #orangeGum:hover{
+		transform:translatey(5px);
+		transition:.5s;
+	}
+</style>
+<circle class="st0" cx="50" cy="50" r="48.2"/>
+<g>
+	<g id="blueGum2">
+		<path d="M43.3,31.2c-0.3,16-24.1,16-24.3,0C19.2,15.2,43,15.2,43.3,31.2z"/>
+		<path class="st1" d="M42.5,31.2c-0.3,15-22.6,15-22.8,0C20,16.2,42.3,16.2,42.5,31.2z"/>
+		<path class="st2" d="M39.6,30.1c-0.2,12.6-18.9,12.6-19.1,0C20.7,17.5,39.4,17.5,39.6,30.1z"/>
+		<path class="st3" d="M30.1,27.1c0,5.1-7.7,5.1-7.7,0C22.4,22,30.1,22,30.1,27.1z"/>
+	</g>
+	<g id="pinkGum">
+		<path d="M64.3,28.2c-0.3,18.5-27.8,18.5-28.1,0C36.5,9.8,63.9,9.8,64.3,28.2z"/>
+		<path class="st4" d="M63.4,28.2c-0.3,17.3-26.1,17.3-26.3,0C37.3,10.9,63.1,10.9,63.4,28.2z"/>
+		<path class="st5" d="M60,27c-0.2,14.5-21.8,14.5-22.1,0C38.2,12.5,59.8,12.5,60,27z"/>
+		<path class="st6" d="M49,23.5c0,5.8-8.9,5.8-8.9,0C40.1,17.6,49,17.6,49,23.5z"/>
+	</g>
+	<g id="purpleGum2">
+		<path d="M77.2,38.6c-0.2,13.7-20.5,13.7-20.8,0C56.6,25,77,25,77.2,38.6z"/>
+		<path class="st7" d="M76.5,38.6c-0.2,12.8-19.3,12.8-19.5,0C57.3,25.8,76.3,25.8,76.5,38.6z"/>
+		<path class="st8" d="M74.1,37.7c-0.2,10.7-16.1,10.7-16.3,0C57.9,27,73.9,27,74.1,37.7z"/>
+		<path class="st9" d="M65.9,35.1c0.1,4.3-6.7,4.3-6.6,0C59.3,30.8,66,30.8,65.9,35.1z"/>
+	</g>
+	<g id="purpleGum1">
+		<path d="M38.3,48.8C37.9,69,8,69,7.6,48.8C8,28.7,37.9,28.7,38.3,48.8z"/>
+		<path class="st7" d="M37.3,48.8C37,67.7,8.9,67.7,8.6,48.8C8.9,29.9,37,29.9,37.3,48.8z"/>
+		<path class="st8" d="M33.7,47.5c-0.3,15.8-23.8,15.8-24.1,0C9.8,31.6,33.4,31.6,33.7,47.5z"/>
+		<path class="st9" d="M21.7,43.7c0,6.4-9.7,6.4-9.7,0C12,37.3,21.6,37.3,21.7,43.7z"/>
+	</g>
+	<g id="bluegum1">
+		<path d="M43.6,64.2C43.3,83,15.2,83,14.9,64.2C15.2,45.3,43.3,45.3,43.6,64.2z"/>
+		<path class="st1" d="M42.7,64.2c-0.3,17.7-26.6,17.7-26.9,0C16.1,46.5,42.4,46.5,42.7,64.2z"/>
+		<path class="st2" d="M39.3,62.9c-0.3,14.8-22.3,14.8-22.6,0C16.9,48,39,48,39.3,62.9z"/>
+		<path class="st3" d="M28,59.3c0,6-9.1,6-9.1,0C18.9,53.3,28,53.3,28,59.3z"/>
+	</g>
+	<g id="redGum">
+		<path d="M92.4,52.7c-0.3,19.9-30,19.9-30.3,0C62.4,32.8,92,32.8,92.4,52.7z"/>
+		<path class="st10" d="M91.4,52.7c-0.3,18.7-28.1,18.7-28.5,0C63.3,34,91.1,34,91.4,52.7z"/>
+		<path class="st0" d="M87.8,51.4c-0.3,15.7-23.6,15.7-23.9,0C64.2,35.7,87.5,35.7,87.8,51.4z"/>
+		<path class="st11" d="M75.9,47.6c0,6.3-9.6,6.3-9.7,0C66.3,41.3,75.9,41.3,75.9,47.6z"/>
+	</g>
+	<g id="greenGum">
+		<path d="M67.3,50.2C66.9,77,27.1,77,26.7,50.2C27.1,23.5,66.9,23.5,67.3,50.2z"/>
+		<path class="st12" d="M66.1,50.2c-0.4,25.1-37.7,25.1-38.1,0C28.4,25.2,65.7,25.2,66.1,50.2z"/>
+		<path class="st13" d="M61.2,48.4c-0.4,21-31.6,21-32,0C29.6,27.4,60.8,27.4,61.2,48.4z"/>
+		<path class="st14" d="M45.3,43.4c-0.1,8.5-12.8,8.5-12.9,0C32.5,34.9,45.2,34.9,45.3,43.4z"/>
+	</g>
+	<g id="orangeGum">
+	<path d="M79,65c-0.3,19.4-29.2,19.4-29.6,0C49.8,45.6,78.7,45.6,79,65z"/>
+	<path class="st15" d="M78.1,65c-0.3,18.2-27.4,18.2-27.7,0C50.7,46.8,77.8,46.8,78.1,65z"/>
+	<path class="st16" d="M74.6,63.7c-0.3,15.3-23,15.3-23.2,0C51.6,48.4,74.3,48.4,74.6,63.7z"/>
+	<path class="st17" d="M63,60c0,6.1-9.4,6.1-9.4,0C53.6,53.9,63,53.9,63,60z"/>
+	</g>
+</g>
+<defs>
+<script>
+
+let icon = document.querySelector("#gumballs");
+
+function logMyId() {
+	console.log(this.id);
+}
+
+icon.addEventListener("click", () => { console.log(this); });
+
+</script>
+</defs>
+</svg>
